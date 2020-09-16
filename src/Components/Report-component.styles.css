@@ -1,0 +1,51 @@
+body {
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+  }
+  
+  table {
+    margin-top: 20px; 
+    width: 100%;
+    border-collapse: collapse;
+  }
+  td {
+    border: 1px solid #ccc;
+  }
+
+  
+  thead th {
+    text-align: center;
+    border-bottom: 2px solid black;
+  }
+  thead button {
+    border: 0;
+    border-radius: none;
+    font-family: inherit;
+    font-size: inherit;
+     /* font-weight: 100; */
+    
+    /* padding: 0.5em; */ 
+    margin-bottom: 15px;
+  }
+  /* thead button.ascending::after {
+    content: '👇';
+    display: inline-block;
+    margin-left: 1em;
+  }
+  
+  thead button.descending::after {
+    content: '☝️';
+    display: inline-block;
+    margin-left: 1em;
+  } */
+  tbody td {
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+  }
+  input{
+    height: 16px;
+    margin-bottom: 10px;
+    width: auto
+  }
+
+ 
